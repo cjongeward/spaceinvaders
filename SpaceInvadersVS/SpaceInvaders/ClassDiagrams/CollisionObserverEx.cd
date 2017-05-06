@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ColPair">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="ColPair" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getList1" Hidden="true" />
+      <Method Name="getList2" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Method Name="process" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ColPair.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\ColPair.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAIAQEAAEAEAIAAAAEAMAAAAAEAEABQAA=</HashCode>
+      <FileName>Collision\ColPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="goList1" />
+      <Field Name="goList2" />
+      <Field Name="pColSubj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectCompositeRoot" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAAAAAAAIgKEAAAAkAAQACAEAABAAAAEAAIFQAA=</HashCode>
+      <FileName>GameObject\GameObjectCompositeRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionSubject">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="CollisionSubject" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAIAAAAAAAAAAAAAIAAABIAAAAAEAAAAA=</HashCode>
+      <FileName>Collision\CollisionSubject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="observerList" />
+      <Field Name="obj1" />
+      <Field Name="obj2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.LinkedList" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAgAAEAAAEAEAAAIAAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>List\LinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObserver">
+    <Position X="8.5" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="getSubject" Hidden="true" />
+      <Method Name="setSubject" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAACEQAAAAIA=</HashCode>
+      <FileName>Collision\CollisionObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mySubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ObsAlienRemover">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\ObsAlienRemover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ObsBulletRemover">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\ObsBulletRemover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ObsScoreUpdater">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\ObsScoreUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ObsBombRemover">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\ObsBombRemover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

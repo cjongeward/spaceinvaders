@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameObjectCompositeRoot" Collapsed="true">
+    <Position X="2" Y="0.5" Width="2" />
+    <Members>
+      <Method Name="GameObjectCompositeRoot" Hidden="true" />
+      <Method Name="getBoundingVol" Hidden="true" />
+      <Method Name="getGameSpriteFlyweight" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="isEmpty" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+      <Method Name="removeMe" Hidden="true" />
+      <Method Name="removeMySprite" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAwAAAAAAAAIgKEAAAAkAAQACAEAABAAAAEAAIFQAA=</HashCode>
+      <FileName>GameObject\GameObjectCompositeRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="0.75" Y="2" Width="2" />
+    <Members>
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="isEmpty" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAACEAAAAAIAQAAAIAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectComposite" Collapsed="true">
+    <Position X="3.75" Y="2" Width="2" />
+    <AssociationLine Name="head" Type="SpaceInvaders.GameObjectCompositeRoot" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="2.375" />
+        <Point X="6.125" Y="2.375" />
+        <Point X="6.125" Y="0.875" />
+        <Point X="4" Y="0.875" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAgAAAAgCEAAAAAAAQAAAAAAAAAAAAAAAGQAA=</HashCode>
+      <FileName>GameObject\GameObjectComposite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="head" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

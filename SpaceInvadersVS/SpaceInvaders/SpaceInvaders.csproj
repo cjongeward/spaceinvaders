@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F659E02-AE46-443E-841D-3C71EA7F2AF5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpaceInvaders</RootNamespace>
+    <AssemblyName>SpaceInvaders</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AzulLibraryDebug, Version=1.0.5484.29292, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\AzulLibraryDebug.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collision\CollisionObject.cs" />
+    <Compile Include="Collision\CollisionObserver.cs" />
+    <Compile Include="Collision\CollisionSubject.cs" />
+    <Compile Include="Collision\CollisionVisitor.cs" />
+    <Compile Include="Collision\ColPair.cs" />
+    <Compile Include="Collision\ColPairManager.cs" />
+    <Compile Include="Collision\NullCollisionObject.cs" />
+    <Compile Include="Collision\ObsAlienRemover.cs" />
+    <Compile Include="Collision\ObsAlienReverser.cs" />
+    <Compile Include="Collision\ObsBombRemover.cs" />
+    <Compile Include="Collision\ObsBulletReady.cs" />
+    <Compile Include="Collision\ObsBulletRemover.cs" />
+    <Compile Include="Collision\ObsPlayerRemover.cs" />
+    <Compile Include="Collision\ObsRPlayerStopper.cs" />
+    <Compile Include="Collision\ObsScoreUpdater.cs" />
+    <Compile Include="Collision\ObsShieldRemover.cs" />
+    <Compile Include="ComAlienMover.cs" />
+    <Compile Include="ComPauseTimer.cs" />
+    <Compile Include="ComRemover.cs" />
+    <Compile Include="ComSwitchScene.cs" />
+    <Compile Include="DataTypes\Rect.cs" />
+    <Compile Include="DataTypes\Shape.cs" />
+    <Compile Include="Factories\AlienFactory.cs" />
+    <Compile Include="Animation\AnimationSprite.cs" />
+    <Compile Include="BaseClasses\Command.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Factories\ShieldFactory.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameObject\Alien.cs" />
+    <Compile Include="GameObject\AlienGrid.cs" />
+    <Compile Include="GameObject\Bomb.cs" />
+    <Compile Include="GameObject\Bullet.cs" />
+    <Compile Include="GameObject\GameObject.cs" />
+    <Compile Include="GameObject\GameObjectComposite.cs" />
+    <Compile Include="GameObject\GameObjectCompositeRoot.cs" />
+    <Compile Include="GameObject\GameObjectManager.cs" />
+    <Compile Include="GameObject\GameObjectNode.cs" />
+    <Compile Include="GameObject\Player.cs" />
+    <Compile Include="GameObject\ShieldChunk.cs" />
+    <Compile Include="GameObject\Wall.cs" />
+    <Compile Include="InputManager.cs" />
+    <Compile Include="scene\AttractScene.cs" />
+    <Compile Include="scene\GameOverScene.cs" />
+    <Compile Include="scene\OpenScene.cs" />
+    <Compile Include="scene\PlayerScene.cs" />
+    <Compile Include="scene\Scene.cs" />
+    <Compile Include="scene\SceneManager.cs" />
+    <Compile Include="scene\WinnerScene.cs" />
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="Sprite\CollisionSprite.cs" />
+    <Compile Include="Sprite\ColSpriteManager.cs" />
+    <Compile Include="Sprite\NullGameSprite.cs" />
+    <Compile Include="Sprite\GameSpriteFlyweight.cs" />
+    <Compile Include="Animation\ImageHolder.cs" />
+    <Compile Include="List\List.cs" />
+    <Compile Include="List\PriorityQueue.cs" />
+    <Compile Include="Sprite\GameSprite.cs" />
+    <Compile Include="Sprite\GameSpriteManager.cs" />
+    <Compile Include="Image\ImageManager.cs" />
+    <Compile Include="Image\ImageNode.cs" />
+    <Compile Include="DataTypes\IndexEnum.cs" />
+    <Compile Include="List\LinkedList.cs" />
+    <Compile Include="List\LinkNode.cs" />
+    <Compile Include="BaseClasses\Manager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sprite\SpriteBase.cs" />
+    <Compile Include="Sprite\SpriteGroup.cs" />
+    <Compile Include="Sprite\SpriteManager.cs" />
+    <Compile Include="Sprite\SpriteNode.cs" />
+    <Compile Include="Image\TextureManager.cs" />
+    <Compile Include="Image\TextureNode.cs" />
+    <Compile Include="Time\TimeEvent.cs" />
+    <Compile Include="Time\TimeManager.cs" />
+    <Compile Include="DataTypes\Vector2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagrams\AlienFactory.cd" />
+    <None Include="ClassDiagrams\Animation.cd" />
+    <None Include="ClassDiagrams\CollisionSprite.cd" />
+    <None Include="ClassDiagrams\CollisionSystem.cd" />
+    <None Include="ClassDiagrams\GameObject.cd" />
+    <None Include="ClassDiagrams\CollisionVisitorEx.cd" />
+    <None Include="ClassDiagrams\GameObjectCompositeEx.cd" />
+    <None Include="ClassDiagrams\GameSprite.cd" />
+    <None Include="ClassDiagrams\GameSpriteFlyweightEx.cd" />
+    <None Include="ClassDiagrams\GameSpriteNull.cd" />
+    <None Include="ClassDiagrams\ImageNode.cd" />
+    <None Include="ClassDiagrams\SpriteNodeStrategyEx.cd" />
+    <None Include="ClassDiagrams\SpriteGroup.cd" />
+    <None Include="ClassDiagrams\ImageManagerEx.cd" />
+    <None Include="ClassDiagrams\ImageSingletonEx.cd" />
+    <None Include="ClassDiagrams\TextureMan.cd" />
+    <None Include="ClassDiagrams\TextureSystem.cd" />
+    <None Include="ClassDiagrams\TimeCommandEx.cd" />
+    <None Include="ClassDiagrams\TimeSystem.cd" />
+    <None Include="ClassDiagrams\CollisionObserverEx.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy  /Y "$(SolutionDir)\SpaceInvaders\Resources\AzulLibraryDebug.dll" "$(SolutionDir)\SpaceInvaders\bin\Debug"
+copy  /Y "$(SolutionDir)\SpaceInvaders\Resources\irrKlang.dll" "$(SolutionDir)\SpaceInvaders\bin\Debug"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

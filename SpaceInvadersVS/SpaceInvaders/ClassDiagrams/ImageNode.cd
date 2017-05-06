@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ImageNode">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="ImageNode" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ImageNode.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image\ImageNode.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAgAAAAEAMAAAAAAEAgAAAAAEAAABAAA=</HashCode>
+      <FileName>Image\ImageNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

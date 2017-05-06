@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ColPairManager" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAABAAoAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>Collision\ColPairManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColPair">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="attachObserver" Hidden="true" />
+      <Method Name="clear" Hidden="true" />
+      <Method Name="ColPair" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getList1" Hidden="true" />
+      <Method Name="getList2" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Method Name="notifyObservers" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ColPair.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\ColPair.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAIAQEAAEAEAIAAAAEAMAAAAAEAEABQAA=</HashCode>
+      <FileName>Collision\ColPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="goList1" />
+      <Field Name="goList2" />
+      <Field Name="pColSubj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectCompositeRoot" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAAAAAAAIgKEAAAAkAAQACAEAABAAAAEAAIFQAA=</HashCode>
+      <FileName>GameObject\GameObjectCompositeRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionSubject" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAIAAAAAAAAAAAAAIAAABIAAAAAEAAAAA=</HashCode>
+      <FileName>Collision\CollisionSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

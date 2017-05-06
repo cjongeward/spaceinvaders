@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ImageManager">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="createActive" Hidden="true" />
+      <Method Name="getInstance" Hidden="true" />
+      <Method Name="getNodeObject" Hidden="true" />
+      <Method Name="ImageManager" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAABAAgAAABAAAQACAAAAAACAAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="baseGetLength" Hidden="true" />
+      <Method Name="fillPool" Hidden="true" />
+      <Method Name="Manager" Hidden="true" />
+      <Field Name="numReserveDelta" Hidden="true" />
+    </Members>
+    <AssociationLine Name="active" Type="SpaceInvaders.List" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="0.562" />
+        <Point X="3.25" Y="0.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="reserve" Type="SpaceInvaders.List" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="1" />
+        <Point X="3.25" Y="1" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAEAAACAIAABAAgAQAAEAAIAAAAAIQAAAAA=</HashCode>
+      <FileName>BaseClasses\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+      <Field Name="reserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.List">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="getLength" Hidden="true" />
+      <Method Name="pop" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAEAAAEAAAAAIAAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>List\List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.LinkedList" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <AssociationLine Name="head" Type="SpaceInvaders.LinkNode" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="3.125" />
+        <Point X="6.125" Y="3.125" />
+        <Point X="6.125" Y="2.062" />
+        <Point X="6.5" Y="2.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAgAAEAAAEAEAAAIAAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>List\LinkedList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="head" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.PriorityQueue" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAgAAEAAAEAEAAAIAAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>List\PriorityQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.LinkNode">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAQAAEAAQAAAAAAAAAEAAAAAAAAAAIIABGAAIAAAA=</HashCode>
+      <FileName>List\LinkNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageNode">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <Members>
+      <Field Name="index" Hidden="true" />
+      <Field Name="rect" Hidden="true" />
+      <Field Name="texture" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ImageNode.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image\ImageNode.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAgAAAAEAMAAAAAAEAgAAAAAEAAABAAA=</HashCode>
+      <FileName>Image\ImageNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

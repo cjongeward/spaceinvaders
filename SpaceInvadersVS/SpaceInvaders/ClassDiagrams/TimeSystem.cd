@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.TimeManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="add" Hidden="true" />
+      <Method Name="createActive" Hidden="true" />
+      <Method Name="getNodeObject" Hidden="true" />
+      <Method Name="insertDelay" Hidden="true" />
+      <Field Name="pauseTime" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+      <Method Name="TimeManager" Hidden="true" />
+      <Field Name="unpaused" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgAACAEAAAAAAAEAAABAAgAAgAAAACAAAQAAAAGIAA=</HashCode>
+      <FileName>Time\TimeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimeEvent">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Field Name="deltaTime" Hidden="true" />
+      <Method Name="getCommand" Hidden="true" />
+      <Method Name="getDeltaTime" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Method Name="TimeEvent" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.TimeEvent.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Time\TimeEvent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAABAAEAAAAAAAEAEAIAAAQEAAAAAEAEQAABJAA=</HashCode>
+      <FileName>Time\TimeEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="command" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Command">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseClasses\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ComAlienMover" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="ComAlienMover" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComAlienMover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ComPauseTimer" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComPauseTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ComRemover" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComRemover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ComSwitchScene" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComSwitchScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

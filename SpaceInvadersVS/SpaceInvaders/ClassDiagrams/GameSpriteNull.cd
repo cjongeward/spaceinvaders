@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameObject">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="getGameSpriteFlyweight" Hidden="true" />
+      <Method Name="getPos" Hidden="true" />
+      <Method Name="isEmpty" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+      <Method Name="setGameSprite" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAACEAAAAAIAQAAAIAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameSpriteFlyweight" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Wall" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACASAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectCompositeRoot">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="direction" Hidden="true" />
+      <Method Name="GameObjectCompositeRoot" Hidden="true" />
+      <Method Name="getBoundingVol" Hidden="true" />
+      <Method Name="getCollisionSprite" Hidden="true" />
+      <Method Name="getGameSpriteFlyweight" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+      <Method Name="isEmpty" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="next" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+      <Method Name="removeMe" Hidden="true" />
+      <Method Name="removeMySprite" Hidden="true" />
+      <Method Name="setCollisionObject" Hidden="true" />
+      <Field Name="wallCol" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAwAAAAAAAAIgKEAAAAkAAQACAEAABAAAAEAAIFQAA=</HashCode>
+      <FileName>GameObject\GameObjectCompositeRoot.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pColObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameSpriteFlyweight">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="GameSpriteFlyweight" Hidden="true" />
+      <Method Name="getGameSprite" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="getPos" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAQQACAAAAAAgAAAAAAEIAAAAAIAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Sprite\GameSpriteFlyweight.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAIAAAgAAAYEAEIACEBAsAgACAAAEAAABAAI=</HashCode>
+      <FileName>Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NullGameSprite">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="getFlyWeight" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Method Name="NullGameSprite" Hidden="true" />
+      <Method Name="setImage" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQEAEAAAAAAEAAAAAAAEAAABAAI=</HashCode>
+      <FileName>Sprite\NullGameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObject" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQAAACCAAAAAIAAAgAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

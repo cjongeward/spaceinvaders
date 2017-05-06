@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameSprite">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="GameSprite" Hidden="true" />
+      <Method Name="getFlyWeight" Hidden="true" />
+      <Method Name="setImage" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameSprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\GameSprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAIAAAgAAAYEAEIACEBAsAgACAAAEAAABAAI=</HashCode>
+      <FileName>Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

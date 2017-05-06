@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionSprite">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="CollisionSprite" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.CollisionSprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\CollisionSprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAAAEAEAAAAAAEAAAAAAAEAAABAIA=</HashCode>
+      <FileName>Sprite\CollisionSprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="boundingVol" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObject">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="CollisionObject" Hidden="true" />
+      <Method Name="copyRect" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pRect" Type="SpaceInvaders.Rect" FixedFromPoint="true">
+      <Path>
+        <Point X="2.5" Y="1.504" />
+        <Point X="3.75" Y="1.504" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAQAAACCAAAAAIAAAgAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pColSprite" />
+      <Field Name="pRect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Rect">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="getPos" Hidden="true" />
+      <Method Name="getSize" Hidden="true" />
+      <Method Name="intersects" Hidden="true" />
+      <Method Name="Rect" Hidden="true" />
+      <Method Name="setBounds" Hidden="true" />
+      <Method Name="union" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIgAAACAAIAAAggAAIAAAAAAAEAIIACAAAAAgAAAAAE=</HashCode>
+      <FileName>DataTypes\Rect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

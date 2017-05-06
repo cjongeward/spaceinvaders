@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SceneManager">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="attract" Hidden="true" />
+      <Field Name="credits" Hidden="true" />
+      <Method Name="draw" Hidden="true" />
+      <Field Name="end" Hidden="true" />
+      <Method Name="getInstance" Hidden="true" />
+      <Method Name="getNumPlayers" Hidden="true" />
+      <Field Name="highscore" Hidden="true" />
+      <Field Name="hiscore" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Method Name="initPlayers" Hidden="true" />
+      <Field Name="instance" Hidden="true" />
+      <Field Name="numPlayers" Hidden="true" />
+      <Field Name="open" Hidden="true" />
+      <Field Name="p1trans" Hidden="true" />
+      <Field Name="p2trans" Hidden="true" />
+      <Field Name="player1" Hidden="true" />
+      <Method Name="player1Dead" Hidden="true" />
+      <Field Name="player2" Hidden="true" />
+      <Method Name="player2Dead" Hidden="true" />
+      <Method Name="SceneManager" Hidden="true" />
+      <Field Name="score1" Hidden="true" />
+      <Field Name="score2" Hidden="true" />
+      <Field Name="scoreheader" Hidden="true" />
+      <Method Name="setNumPlayers" Hidden="true" />
+      <Method Name="submitScore" Hidden="true" />
+      <Method Name="toggleBoundingBoxes" Hidden="true" />
+      <Field Name="winner" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>wEAAAAQCIAAFAIUABDMICEQAAAFAQKQgAAloIMAAAAA=</HashCode>
+      <FileName>scene\SceneManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Scene">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Scene.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>scene\Scene.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEABEMAAASAAICEAGBAAAEsgkAAAAA=</HashCode>
+      <FileName>scene\Scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AttractScene" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAIAAAAAAMAABAAABAEAKAAAAAAAAAAAAA=</HashCode>
+      <FileName>scene\AttractScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameOverScene">
+    <Position X="1.75" Y="5.25" Width="1.5" />
+    <Members>
+      <Method Name="draw" Hidden="true" />
+      <Method Name="GameOverScene" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAMAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>scene\GameOverScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.OpenScene" Collapsed="true">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAMAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>scene\OpenScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.PlayerScene" Collapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAFAAAAAAABAMIACAAARMAACCAAAAAAAAAAAA=</HashCode>
+      <FileName>scene\PlayerScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.WinnerScene" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAMAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>scene\WinnerScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

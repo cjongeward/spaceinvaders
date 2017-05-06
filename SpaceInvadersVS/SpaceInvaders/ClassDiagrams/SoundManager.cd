@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.soundNode">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="soundNode" Hidden="true" />
+    </Members>
+    <AssociationLine Name="next" Type="SpaceInvaders.soundNode" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="1.389" />
+        <Point X="5.625" Y="1.389" />
+        <Point X="5.625" Y="0.625" />
+        <Point X="4.438" Y="0.625" />
+        <Point X="4.438" Y="1" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>SoundManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="next" />
+      <Field Name="sound" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SoundManager">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="getInstance" Hidden="true" />
+      <Field Name="shoot" Hidden="true" />
+      <Method Name="SoundManager" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAABAAAAABAgAABAEAQAAAAAAAAAgII=</HashCode>
+      <FileName>SoundManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="march" />
+      <Field Name="shoot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

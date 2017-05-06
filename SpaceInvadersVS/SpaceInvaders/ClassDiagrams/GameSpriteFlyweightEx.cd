@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="SpriteBase" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="GameSprite" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="getPos" Hidden="true" />
+      <Method Name="getScale" Hidden="true" />
+      <Method Name="getSize" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="scale" Hidden="true" />
+      <Method Name="setImage" Hidden="true" />
+      <Method Name="setPos" Hidden="true" />
+      <Method Name="setScale" Hidden="true" />
+      <Field Name="size" Hidden="true" />
+      <Field Name="sprite" Hidden="true" />
+      <Field Name="texture" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameSprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\GameSprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAIAAAgAAAYEAEIACEBAsAgACAAAEAAABAAI=</HashCode>
+      <FileName>Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSpriteFlyweight">
+    <Position X="3.5" Y="2.25" Width="2" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="GameSpriteFlyweight" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAQQACAAAAAAgAAAAAAEIAAAAAIAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Sprite\GameSpriteFlyweight.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject">
+    <Position X="7.5" Y="2.25" Width="2" />
+    <Members>
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="getPos" Hidden="true" />
+      <Method Name="isEmpty" Hidden="true" />
+      <Method Name="move" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+      <Method Name="update" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAACEAAAAAIAQAAAIAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameSpriteFlyweight" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

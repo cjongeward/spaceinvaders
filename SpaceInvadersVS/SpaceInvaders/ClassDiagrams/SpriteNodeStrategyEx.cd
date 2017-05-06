@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteNode">
+    <Position X="2" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="getSpriteBase" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Method Name="SpriteNode" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAOAEAAAAAAEAAAAAAAEAAABAAA=</HashCode>
+      <FileName>Sprite\SpriteNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSpriteBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.List" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAEAAAEAAAAAIAAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>List\List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAEAAACAIAABAAgAQAAEAAIAAAAAIQAAAAA=</HashCode>
+      <FileName>BaseClasses\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteGroup" HideInheritanceLine="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="fillPool" Hidden="true" />
+      <Method Name="find" Hidden="true" />
+      <Method Name="getIndex" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="getReserveNode" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Method Name="remove" Hidden="true" />
+      <Method Name="SpriteGroup" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SpriteGroup.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\SpriteGroup.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEABAAEAAAAAAAAEAAMAEAAAAAAEAAKACAAEIQABAAA=</HashCode>
+      <FileName>Sprite\SpriteGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase">
+    <Position X="6" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="SpriteBase" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionSprite" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.CollisionSprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\CollisionSprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAAAEAEAAAAAAEAAAAAAAEAAABAIA=</HashCode>
+      <FileName>Sprite\CollisionSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameSprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\GameSprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAIAAAgAAAYEAEIACEBAsAgACAAAEAAABAAI=</HashCode>
+      <FileName>Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSpriteFlyweight" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAQQACAAAAAAgAAAAAAEIAAAAAIAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Sprite\GameSpriteFlyweight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

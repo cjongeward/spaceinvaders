@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ColSpriteManager" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAABAAgAAABAAAQACAAAAAACAAA=</HashCode>
+      <FileName>Sprite\ColSpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAEAAACAIAABAAgAQAAEAAIAAAAAIQAAAAA=</HashCode>
+      <FileName>BaseClasses\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.List" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAEAAAEAAAAAIAAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>List\List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.LinkedList" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAgAAEAAAEAEAAAIAAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>List\LinkedList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="head" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.LinkNode" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAAQAAAAAAAAAEAAAAAAAAAAIIABGAAIAAAA=</HashCode>
+      <FileName>List\LinkNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionSprite">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.CollisionSprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\CollisionSprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAEAEAAAAAAEAAAAAAAEAAABAIA=</HashCode>
+      <FileName>Sprite\CollisionSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObject">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAIAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pColSprite" />
+      <Field Name="pRect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Rect">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAACAAIAAAggAAIAAAAAAAEAAIACAAAAAgAAAAAA=</HashCode>
+      <FileName>DataTypes\Rect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
